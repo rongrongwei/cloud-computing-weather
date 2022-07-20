@@ -1,0 +1,10 @@
+USE project;
+SELECT 
+    *
+FROM 
+    weather
+WHERE
+    WBANNO = 53877
+    AND SUBSTRING(LST_DATE,1,4) = 2002
+LIMIT 10
+;
